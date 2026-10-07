@@ -6,8 +6,8 @@
 /* 整個網頁的基本設定 */
 body {
   margin: 0;
-  color: #769afc;
-  background-color: #eff6ff;
+  color: #3b82f6; /* 明亮清爽的淺藍色文字 */
+  background-color: #f0f6ff; /* 極淺的淡藍色底色 */
   font-family: Arial, "Microsoft JhengHei", sans-serif;
   line-height: 1.65;
 }
@@ -16,9 +16,9 @@ body {
 header,
 footer {
   padding: 20px;
-  color: white;
+  color: #ffffff; /* 純白文字 */
   text-align: center;
-  background-color: #82b3eb; 
+  background-color: #60a5fa; /* 天空淺藍色 */
 }
 
 /* 導覽列 */
@@ -29,13 +29,14 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #ffffff; /* 純白連結文字 */
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
   text-decoration: underline;
-  color: #bfdbfe;
+  color: #e0f2fe; /* 滑鼠移過去時呈現極淺藍 */
 }
 
 /* 主要內容 */
@@ -51,10 +52,10 @@ section,
 main > div {
   margin-bottom: 20px;
   padding: 30px;
-  background-color: white; /* 內容區塊維持白色，讓文字比較好讀 */
+  background-color: #ffffff; /* 純白內容卡片 */
   border-radius: 12px;
-  border-top: 4px solid #3f8cf9; /* 區塊上方加一條亮藍色邊框做點綴 */
-  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.1); /* 陰影也帶有一點點藍色調 */
+  border-top: 4px solid #93c5fd; /* 淺藍色頂邊框 */
+  box-shadow: 0 4px 12px rgba(147, 197, 253, 0.25); /* 淺藍色微陰影 */
 }
 
 /* 標題與文字 */
@@ -63,7 +64,7 @@ h1 {
 }
 
 h2 {
-  color: #5d75fa; /* 區塊內的次標題使用鮮明的藍色 */
+  color: #2563eb; /* 鮮明淺藍色區塊標題 */
 }
 
 p {
@@ -91,13 +92,13 @@ table {
 th,
 td {
   padding: 14px;
-  border: 1px solid #93c5fd; /* 淺藍色的表格邊框 */
+  border: 1px solid #bfdbfe; /* 淺藍色邊框 */
   text-align: left;
 }
 
 th {
-  background-color: #dbeafe; /* 表格的標題列背景改成淺藍色 */
-  color: #6d8eea; /* 表格標題文字用深藍色 */
+  background-color: #e0f2fe; /* 冰藍色表格標題列 */
+  color: #2563eb; /* 淺藍色表格標題文字 */
 }
 
 /* 手機與平板版面 */
