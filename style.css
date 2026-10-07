@@ -1,0 +1,128 @@
+/* 讓寬度計算更容易理解 */
+* {
+  box-sizing: border-box;
+}
+
+/* 整個網頁的基本設定 */
+body {
+  margin: 0;
+  color: #99aefb;
+  background-color: #eff6ff;
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+  line-height: 1.65;
+}
+
+/* 頁首與頁尾 */
+header,
+footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-color: #1d4ed8; /* 換成明亮且專業的寶石藍 */
+}
+
+/* 導覽列 */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #bfdbfe; /* 滑鼠游標移過去時，文字變成淺藍色 */
+}
+
+/* 主要內容 */
+main {
+  width: 92%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 內容區段 */
+section,
+main > div {
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: white; /* 內容區塊維持白色，讓文字比較好讀 */
+  border-radius: 12px;
+  border-top: 4px solid #3b82f6; /* 區塊上方加一條亮藍色邊框做點綴 */
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.1); /* 陰影也帶有一點點藍色調 */
+}
+
+/* 標題與文字 */
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  color: #2563eb; /* 區塊內的次標題使用鮮明的藍色 */
+}
+
+p {
+  line-height: 1.75;
+}
+
+/* 圖片 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* 清單 */
+li {
+  margin-bottom: 10px;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #93c5fd; /* 淺藍色的表格邊框 */
+  text-align: left;
+}
+
+th {
+  background-color: #dbeafe; /* 表格的標題列背景改成淺藍色 */
+  color: #1e3a8a; /* 表格標題文字用深藍色 */
+}
+
+/* 手機與平板版面 */
+@media (max-width: 768px) {
+  header,
+  footer {
+    padding: 15px;
+  }
+
+  main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  section,
+  main > div {
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
