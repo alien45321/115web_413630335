@@ -6,7 +6,7 @@
 /* 整個網頁的基本設定 */
 body {
   margin: 0;
-  color: #99aefb;
+  color: #769afc;
   background-color: #eff6ff;
   font-family: Arial, "Microsoft JhengHei", sans-serif;
   line-height: 1.65;
@@ -18,7 +18,7 @@ footer {
   padding: 20px;
   color: white;
   text-align: center;
-  background-color: #1d4ed8; /* 換成明亮且專業的寶石藍 */
+  background-color: #82b3eb; 
 }
 
 /* 導覽列 */
@@ -35,7 +35,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  color: #bfdbfe; /* 滑鼠游標移過去時，文字變成淺藍色 */
+  color: #bfdbfe;
 }
 
 /* 主要內容 */
@@ -53,7 +53,7 @@ main > div {
   padding: 30px;
   background-color: white; /* 內容區塊維持白色，讓文字比較好讀 */
   border-radius: 12px;
-  border-top: 4px solid #3b82f6; /* 區塊上方加一條亮藍色邊框做點綴 */
+  border-top: 4px solid #3f8cf9; /* 區塊上方加一條亮藍色邊框做點綴 */
   box-shadow: 0 4px 12px rgba(29, 78, 216, 0.1); /* 陰影也帶有一點點藍色調 */
 }
 
@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-  color: #2563eb; /* 區塊內的次標題使用鮮明的藍色 */
+  color: #5d75fa; /* 區塊內的次標題使用鮮明的藍色 */
 }
 
 p {
@@ -97,7 +97,7 @@ td {
 
 th {
   background-color: #dbeafe; /* 表格的標題列背景改成淺藍色 */
-  color: #1e3a8a; /* 表格標題文字用深藍色 */
+  color: #6d8eea; /* 表格標題文字用深藍色 */
 }
 
 /* 手機與平板版面 */
